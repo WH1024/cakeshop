@@ -4,7 +4,7 @@
 	<div class="footer">
 		<div class="container">
 			<div class="text-center">
-				<p>21215150503黄伟焊+21215150501吴伽诚</p>
+				<p>21215150503黄伟焊+21215150501吴伽诚+21215150526黄健鸿</p>
 	   		</div>
 		</div>
 	</div>

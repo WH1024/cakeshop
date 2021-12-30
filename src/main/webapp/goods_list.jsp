@@ -68,10 +68,7 @@
 <input type='text' class='form-control' style='display:inline;width:60px;' value=''/><a class='btn btn-info' href='javascript:void(0);' onclick='location.href="${pageContext.request.contextPath }/goods_list?id=${id}&pageNo="+(this.previousSibling.value)'>GO</a>
 </div>
 
-<jsp:include page="/page.jsp">
-<jsp:param value="/goods_list" name="url"/>
-<jsp:param value="&id=${id}" name="param"/>
-</jsp:include>
+
 </div>
 		</div>
 	</div>

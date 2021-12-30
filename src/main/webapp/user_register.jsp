@@ -36,7 +36,7 @@
 						</div>
 						<div class="input">
 							<span>邮箱 <label style="color:red;">*</label></span>
-							<input type="text" name="email" placeholder="请输入用户名" required="required"> 
+							<input type="text" name="email" placeholder="请输入邮箱" required="required"> 
 						</div>
 						<div class="input">
 							<span>密码 <label style="color:red;">*</label></span>
