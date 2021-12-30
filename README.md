@@ -1,3 +1,3 @@
 # cakeshop
-## JSP+MySQLl+Servlet
+## JSP+MySQL+Servlet
 ## JSP期末作业
