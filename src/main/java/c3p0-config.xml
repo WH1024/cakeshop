@@ -4,7 +4,7 @@
 	<default-config>
 		<property name="driverClass">com.mysql.jdbc.Driver</property>
 		<property name="jdbcUrl">
-			<![CDATA[jdbc:mysql://120.25.223.78:3306/cakeshop]]>
+			<![CDATA[jdbc:mysql://120.25.223.78:3306/cakeshop?characterEncoding=utf-8]]>
 		</property>
 		<property name="user">root</property>
 		<property name="password">weihanHuang123</property>
