@@ -13,6 +13,14 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/simpleCart.min.js"></script>
 </head>
+<script type="text/javascript">
+	function check_mail(e){
+		if(!/(\S)+[@]{1}(\S)+[.]{1}(\w)+/.test(e))
+		{
+			alert("请输入格式正确的 e-mail 地址！");
+		}
+	}
+</script>
 <body>
 
 	
@@ -36,7 +44,7 @@
 						</div>
 						<div class="input">
 							<span>邮箱 <label style="color:red;">*</label></span>
-							<input type="text" name="email" placeholder="请输入邮箱" required="required"> 
+							<input type="text" name="email" placeholder="请输入邮箱" required="required" onblur="check_mail(this	.value)">
 						</div>
 						<div class="input">
 							<span>密码 <label style="color:red;">*</label></span>
